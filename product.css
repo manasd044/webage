@@ -1,0 +1,44 @@
+*{
+    margin: 0px;   
+}
+.banner{
+  background-color: #222222;
+  max-height: 500px;
+}
+.banner h1 {
+    font: italic 1.2em "Fira Sans", serif;
+    font-weight:bolder;
+    font-size:xx-large;
+    color: #F3EFE0;
+    text-shadow: 0 0 10px #F3EFE0, 0 0 20px #F3EFE0, 0 0 30px #f90000, 0 0 40px #ee0000, 0 0 50px #58a751, 0 0 60px #909057, 0 0 70px #9d2020;
+    padding: 50px;
+    text-align: center;
+    align-items: center;   
+}
+.banner p{
+    color: #F3EFE0;
+    font: italic 1.2em "Fira Sans", serif;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.container img{
+    clip-path: circle();
+    
+}
+.container{
+    
+   column-rule: 2px;
+   background-color: #434242;
+   color:#F3EFE0 ;
+   display: grid;
+   grid-template-columns: repeat(6,2fr);
+   margin: auto;
+   height: auto;
+   column-gap: 60px;
+   grid-template-rows:500px;
+   width:auto;
+   
+   
+}
+
